@@ -34,7 +34,7 @@ The general workflow of gML-sTDA includes:
 
 Typical dependencies include:
 
-- Python ≥ 3.8
+- python==3.12
 - numba==0.60.0
 - numpy==1.26.4
 - scipy==1.14.1
@@ -47,7 +47,9 @@ pip install -r requirements.txt
 
 ## Installation
 git clone https://github.com/I10140317/gML-sTDA.git
+
 cd gML-sTDA
+
 ./install.sh
 
 ## Usage
@@ -57,6 +59,7 @@ A typical workflow consists of:
 3. Solving for excited states
 
 Example:
+
 python3 select_config.py > out.log
 
 ## Output
