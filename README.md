@@ -41,6 +41,7 @@ Typical dependencies include:
 - pyscf==2.11.1
 - setuptools==72.1.0
 - torch==2.5.1
+- ifx to compile modified version of stda
 
 Install dependencies using:
 pip install -r requirements.txt
@@ -59,6 +60,8 @@ A typical workflow consists of:
 3. Solving for excited states
 
 Example:
+
+cd example
 
 python3 select_config.py > out.log
 
