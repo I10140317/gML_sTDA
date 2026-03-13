@@ -47,9 +47,9 @@ Install dependencies using:
 pip install -r requirements.txt
 
 ## Installation
-git clone https://github.com/I10140317/gML-sTDA.git
+git clone https://github.com/I10140317/gML_sTDA.git
 
-cd gML-sTDA
+cd gML_sTDA
 
 ./install.sh
 
