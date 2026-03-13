@@ -41,7 +41,7 @@ Typical dependencies include:
 - pyscf==2.11.1
 - setuptools==72.1.0
 - torch==2.5.1
-- ifx to compile modified version of stda
+- fortran compilers (recommanded ifx/ifort) to compile modified version of stda
 
 Install dependencies using:
 pip install -r requirements.txt
